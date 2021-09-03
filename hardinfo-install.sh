@@ -15,7 +15,7 @@
 # chmod +x ./hardinfo-install.sh
 #
 
-# Verify that OS is Centos 7 before executing script
+# Verify that OS is CentOS 7 before executing script
 if grep -qi 'centos linux 7' /etc/os-release; then
 
     DownloadPath=$HOME/Downloads/nux-dextop-download
